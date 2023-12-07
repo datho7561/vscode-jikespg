@@ -1,6 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
   "name": "Jikespg Grammar",
+  "fileTypes": [
+    "g"
+  ],
   "patterns": [
     {
       "include": "#keywords"
@@ -90,12 +93,12 @@
       "patterns": [
         {
           "name": "string.quoted.triple.jikespg",
-          "begin": "/\\.",
+          "begin": "\\s*/\\.",
           "end": "\\./"
         },
         {
           "name": "string.quoted.triple.jikespg",
-          "begin": "/:",
+          "begin": "\\s*/:",
           "end": ":/"
         }
       ]

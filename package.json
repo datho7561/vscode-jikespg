@@ -3,7 +3,7 @@
   "displayName": "vscode-jikespg",
   "description": "Syntax highlighting for jikespg grammar files",
   "publisher": "datho7561",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "url": "https://github.com/datho7561/vscode-jikespg"
   },
@@ -18,12 +18,12 @@
       "id": "jikespg",
       "aliases": ["Jikespg Grammar", "jikespg"],
       "extensions": [".g"],
-      "configuration": "./language-configuration.json"
+      "configuration": "./language-configurations/jikespg.json"
     }],
     "grammars": [{
       "language": "jikespg",
       "scopeName": "source.jikespg",
-      "path": "./syntaxes/jikespg.tmLanguage.json"
+      "path": "./syntaxes/jikespg.json"
     }]
   }
 }
